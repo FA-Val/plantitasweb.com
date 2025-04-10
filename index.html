@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Plantas Medicinales Mexicanas</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Plantas Medicinales Mexicanas</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="descripcion.html">Descripción</a></li>
+      <li><a href="usos.html">Usos Medicinales</a></li>
+      <li><a href="cosmetologia.html">Cosmetología</a></li>
+      <li><a href="preparacion.html">Preparación</a></li>
+      <li><a href="precauciones.html">Precauciones</a></li>
+      <li><a href="tienda.html">Tienda</a></li>
+    </ul>
+  </nav>
+
+  <section class="intro">
+    <h2>Bienvenido al "Botiquín de la Abuela"</h2>
+    <h3>Descubre el poder del cultivo de las plantas medicinales</h3>
+    <p>"𝘜𝘯 𝘱𝘰𝘤𝘰 𝘥𝘦 𝘩𝘪𝘦𝘳𝘣𝘢, 𝘶𝘯 𝘱𝘰𝘤𝘰 𝘥𝘦 𝘢𝘮𝘰𝘳, 𝘺 𝘶𝘯 𝘱𝘰𝘤𝘰 𝘥𝘦 𝘱𝘢𝘤𝘪𝘦𝘯𝘤𝘪𝘢, 𝘦𝘴 𝘭𝘢 𝘳𝘦𝘤𝘦𝘵𝘢 𝘱𝘢𝘳𝘢 𝘭𝘢 𝘴𝘢𝘭𝘶𝘥"</p>
+    <h4>¡Explora este sitio y descubre lo primordial para poder tener ese amor y bienestar que a todos nos hace bien!</h4>
+    <img src="plant.jpg" alt="planta" class="plant-image">
+  </section>
+
+  <section class="contacto">
+    <h2>Contacto</h2>
+    <form id="formularioContacto" class="formulario-contacto" novalidate>
+        <div class="form-grupo">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <small class="error" id="errorNombre"></small>
+        </div>
+
+        <div class="form-grupo">
+            <label for="correo">Correo:</label>
+            <input type="email" id="correo" name="correo" required>
+            <small class="error" id="errorCorreo"></small>
+        </div>
+
+        <div class="form-grupo">
+            <label for="comentario">Comentario:</label>
+            <textarea id="comentario" name="comentario" rows="4" required></textarea>
+        </div>
+
+        <button type="submit" class="btn-enviar">Enviar</button>
+    </form>
+</section>
+</body>
+</html>
