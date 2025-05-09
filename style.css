@@ -334,3 +334,144 @@ body {
 input.invalid, textarea.invalid {
     border-color: red;
 }
+
+body {
+  background-color: #fff9f0;
+  font-family: 'Poppins', sans-serif;
+  color: #4e4e4e;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #b2e0b2;
+  color: #2d5a2d;
+  padding: 20px;
+  text-align: center;
+  font-size: 2em;
+  border-bottom: 5px solid #d9c4a1;
+}
+
+nav ul {
+  list-style: none;
+  background-color: #d9c4a1;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #4e4e4e;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #2d5a2d;
+}
+
+.descripcion {
+  padding: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.planta {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.planta:hover {
+  transform: translateY(-5px);
+}
+
+.planta img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.descripcion-texto {
+  font-size: 0.9em;
+  margin-top: 10px;
+  color: #6e6e6e;
+}
+.precauciones {
+    background-color: #ffe5e5;
+    padding: 40px 20px;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.precauciones h2 {
+    color: #ff6b6b; 
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.advertencia {
+    background-color: #fff;
+    border-left: 8px solid #ffa07a; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 12px;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.advertencia:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.advertencia h3 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.advertencia p {
+    color: #555;
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+.icono {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+.linkpz {
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: #fff0e6;
+  text-align: center;
+  border-radius: 10px;
+  border: 2px dashed #d2691e;
+  max-width: 600px;
+  font-size: 1.1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.linkpz a {
+  color: #c0392b;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.linkpz a:hover {
+  text-decoration: underline;
+}
