@@ -199,8 +199,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 30px;
-  padding: 40px;
+  gap: 100px;
+  padding: 98px 72px; 
   background-color: #fefdf9;
 }
 
