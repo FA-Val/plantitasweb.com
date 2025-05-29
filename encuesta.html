@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encuesta</title>
+  <link rel="stylesheet" href="encuesta.css">
+</head>
+<body>
+
+  <header>
+    <h1>Encuesta de Plantas Medicinales</h1>
+    <p>Comparte tu experiencia y recibe una recomendación personalizada.</p>
+  </header>
+
+  <nav>
+        <ul>
+             <li><a href="index.html">Inicio</a></li>
+            <li><a href="usos.html">Usos Medicinales</a></li>
+            <li><a href="cosmetologia.html">Cosmetología</a></li>
+            <li><a href="preparacion.html">Preparación</a></li>
+            <li><a href="precauciones.html">Precauciones</a></li>
+            <li><a href="encuesta.html">Encuesta</a></li>
+        </ul>
+    </nav>
+
+  <form id="encuestaForm">
+    <section>
+      <h2>Conocimiento y experiencia</h2>
+
+      <label>1. ¿Cómo conociste las plantas medicinales?</label>
+      <select name="conocimiento" required>
+        <option value=""></option>
+        <option>Por mi familia</option>
+        <option>Internet</option>
+        <option>Recomendación</option>
+        <option>Otro</option>
+      </select>
+
+      <label>2. ¿Has aprendido en sitios como este?</label>
+      <select name="aprendizaje" required>
+        <option value=""></option>
+        <option>Sí, me han servido</option>
+        <option>No, uso otros</option>
+        <option>Estoy empezando</option>
+      </select>
+    </section>
+
+    <section>
+      <h2>Preferencias y hábitos</h2>
+
+      <label>3. ¿Tu planta favorita y por qué?</label>
+      <textarea name="favorita" rows="3"></textarea>
+
+      <label>4. ¿Con qué frecuencia usas plantas?</label>
+      <select name="frecuencia" required>
+        <option value=""></option>
+        <option>Siempre</option>
+        <option>Casi siempre</option>
+        <option>A veces</option>
+        <option>Nunca</option>
+      </select>
+
+      <label>5. ¿Cómo las preparas?</label>
+      <select name="preparacion" required>
+        <option value=""></option>
+        <option>Infusión o té</option>
+        <option>Pomadas o cera</option>
+        <option>Ungüentos</option>
+        <option>Otro</option>
+      </select>
+    </section>
+
+    <section>
+      <h2>Confianza y percepción</h2>
+
+      <label>6. ¿Crees que complementan la medicina?</label>
+      <select name="confianza" required>
+        <option value=""></option>
+        <option>Muy útiles</option>
+        <option>En ciertas ocasiones</option>
+        <option>No, prefiero medicina</option>
+        <option>No estoy seguro</option>
+      </select>
+
+      <label>7. ¿Qué contenido te gustaría ver?</label>
+      <div class="checkboxes">
+        <label><input type="checkbox" name="interes" value="cultivo"> Cultivo</label>
+        <label><input type="checkbox" name="interes" value="preparacion"> Productos</label>
+        <label><input type="checkbox" name="interes" value="historia"> Historia</label>
+        <label><input type="checkbox" name="interes" value="ciencia"> Validación</label>
+        <label><input type="checkbox" name="interes" value="precauciones"> Otro</label>
+      </div>
+
+      <label>8. ¿Qué problema quieres tratar?</label>
+      <select name="problema" required>
+        <option value=""></option>
+        <option>Menopausia, hipertensión o déficit</option>
+        <option>Afecciones respiratorias</option>
+        <option>Dificultad para relajarse</option>
+        <option>Quemaduras, heridas o mala digestión</option>
+        <option>Cicatrices y piel dañada</option>
+      </select>
+    </section>
+
+    <button type="submit">Enviar</button>
+  </form>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="encuesta.js"></script>
+</body>
+</html>
