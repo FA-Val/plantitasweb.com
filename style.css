@@ -118,14 +118,6 @@ nav ul li a {
     opacity: 1;
     padding: 10px;
 }
-body {
-  font-family: 'Raleway', sans-serif;
-  background-color: #fff8f0;
-  margin: 0;
-  padding: 0;
-  color: #444;
-}
-
 .cos-header {
   text-align: center;
   padding: 40px 20px;
