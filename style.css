@@ -334,23 +334,6 @@ body {
 input.invalid, textarea.invalid {
     border-color: red;
 }
-
-body {
-  background-color: #fff9f0;
-  font-family: 'Poppins', sans-serif;
-  color: #4e4e4e;
-  margin: 0;
-  padding: 0;
-}
-
-header {
-  background-color: #b2e0b2;
-  color: #2d5a2d;
-  padding: 20px;
-  text-align: center;
-  font-size: 2em;
-  border-bottom: 5px solid #d9c4a1;
-}
 .descripcion {
   padding: 40px;
   display: grid;
