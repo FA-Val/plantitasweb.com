@@ -351,28 +351,6 @@ header {
   font-size: 2em;
   border-bottom: 5px solid #d9c4a1;
 }
-
-nav ul {
-  list-style: none;
-  background-color: #d9c4a1;
-  padding: 10px;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  margin: 0;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: #4e4e4e;
-  font-weight: bold;
-  transition: color 0.3s;
-}
-
-nav ul li a:hover {
-  color: #2d5a2d;
-}
-
 .descripcion {
   padding: 40px;
   display: grid;
